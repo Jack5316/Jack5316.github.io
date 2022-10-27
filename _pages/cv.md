@@ -11,7 +11,7 @@ redirect_from:
 
 Education
 ======
-* B.Eng,XJTLU@SUZHOU,Electronic Science and Technology,2024
+* B.Eng, XJTLU@SUZHOU, Electronic Science and Technology, 2024
 
 Work experience
 ======
