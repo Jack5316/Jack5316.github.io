@@ -7,4 +7,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
-# Edu
+# Biography
+# Education
+# Skill
+# Contact
