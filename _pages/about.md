@@ -1,13 +1,11 @@
----
-permalink: /
-title: "academicpages is a ready-to-fork GitHub Pages template for academic personal websites"
-excerpt: "About me"
-author_profile: true
-redirect_from: 
-  - /about/
-  - /about.html
----
 # Biography
+Jiawei Tan is currently a Y3 UG student in XJTLU. His interest cover philosophy, productivity.
 # Education
+---
+B.S., 2010 - 2022, School of Advanced Technology, Major of Electronic Science and Technology, Xi’an Jiaotong-Liverpool University (Dual Degree of University of Liverpool), Suzhou, China
 # Skill
+- Matlab
+- C
+- Python
 # Contact
+**jiaweitan531@gmail.com**
