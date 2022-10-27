@@ -1,19 +1,26 @@
 ---
-layout: archive
-title: "CV"
-permalink: /cv/
+permalink: /
+title: "Biography of Jiawei Tan-Jack"
+excerpt: "About me"
 author_profile: true
-redirect_from:
-  - /resume
+redirect_from: 
+  - /about/
+  - /about.html
 ---
-# Biography
-Jiawei Tan is currently a Y3 UG student in XJTLU. His interest cover philosophy, productivity.
-# Education
----
-B.S., 2010 - 2022, School of Advanced Technology, Major of Electronic Science and Technology, Xi’an Jiaotong-Liverpool University (Dual Degree of University of Liverpool), Suzhou, China
-# Skill
-- Matlab
-- C
-- Python
-# Contact
-**jiaweitan531@gmail.com**
+
+Jiawei Tan is currently a year 3 undergraduate at Xi'an Jiaotong-liverpool University and University of Liverpool. His interest covers philosophy and productivity.
+
+## Education 
+
+B.S., 2020 - 2022, School of Advanced Technology, Major of Electronic Science and Technology, Xi'an Jiaotong-Liverpool University (Dual Degree of University of Liverpool), Suzhou, China
+
+## Research experience
+
+1. Xi'an Jiaotong-Liverpool University, School of Advance Technology, Summer Undergraduate Research Fellowship
+
+   Advisors: Sang. Lam
+
+   Position: RA
+
+## Contact
+* e-mail: jiaweitan531@gmail.com
