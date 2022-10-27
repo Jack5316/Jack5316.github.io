@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Jiawei Tan/ Bio"
+title                    : "Jiawei Tan/ Home"
 title_separator          : "-"
 name                     : &name "Jack"
 description              : &description "Homepage"
