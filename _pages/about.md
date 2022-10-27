@@ -1,3 +1,11 @@
+---
+layout: archive
+title: "CV"
+permalink: /cv/
+author_profile: true
+redirect_from:
+  - /resume
+---
 # Biography
 Jiawei Tan is currently a Y3 UG student in XJTLU. His interest cover philosophy, productivity.
 # Education
