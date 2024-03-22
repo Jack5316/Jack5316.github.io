@@ -8,11 +8,11 @@ redirect_from:
   - /about.html
 ---
 
-Jiawei Tan is currently a year 3 undergraduate at Xi'an Jiaotong-liverpool University and University of Liverpool. His interest covers philosophy and productivity.
+Jiawei Tan is currently a year 4 undergraduate at Xi'an Jiaotong-liverpool University and University of Liverpool. His interest covers philosophy and productivity.
 
 ## Education 
 
-BEng., 2020 - 2022, School of Advanced Technology, Major of Electronic Science and Technology, Xi'an Jiaotong-Liverpool University (Dual Degree of University of Liverpool), Suzhou, China
+BEng., 2020 - 2024, School of Advanced Technology, Major of Electronic Science and Technology, Xi'an Jiaotong-Liverpool University (Dual Degree of University of Liverpool), Suzhou, China
 
 ## Research experience
 
