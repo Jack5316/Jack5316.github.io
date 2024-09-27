@@ -26,6 +26,3 @@ Skills
 * MATLAB
 * Python
   
-Service and leadership
-======
-* 
