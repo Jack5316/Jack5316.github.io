@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Jiawei Tan-Jack/ Home"
 title_separator          : "-"
 name                     : &name "Jiawei Tan-Jack"
-description              : &description "An undergraduate of Xi'an Jiaotong-Liverpool University."
+description              : &description "An postgraduate student @ UCL."
 url                      : https://Jack5316.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "Jack5316/Jack5316.github.io"
@@ -82,8 +82,8 @@ analytics:
 author:
   name             : "Jiawei Tan"
   avatar           : "41FCC63C-3C4E-49C5-813F-68344C075E24.jpeg"
-  bio              : "Undergraduate of Xi'an Jiaotong-Liverpool University."
-  location         : "Suzhou, China"
+  bio              : "Postgraduate Student of UCL."
+  location         : "London, UK"
   employer         :
   pubmed           : ##"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : ##"http://yourfullgooglescholarurl.com"
@@ -99,7 +99,7 @@ author:
   github           : "Jack5316"
   google_plus      :
   keybase          :
-  instagram        :
+  instagram        : # jack53181
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
   linkedin         : "https://www.linkedin.com/in/%E5%98%89%E4%BC%9F-%E8%B0%AD-2a66ab201/"
@@ -109,7 +109,7 @@ author:
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : 
+  twitter          : # jia_tan81965n
   vine             :
   weibo            :
   xing             :
