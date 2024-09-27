@@ -8,11 +8,12 @@ redirect_from:
   - /about.html
 ---
 
-Jiawei Tan is currently a year 4 undergraduate at Xi'an Jiaotong-liverpool University and University of Liverpool. His interest covers philosophy and productivity.
+Jiawei Tan is currently a  postgraduate student at University College London. 
 
 ## Education 
 
 BEng., 2020 - 2024, School of Advanced Technology, Major of Electronic Science and Technology, Xi'an Jiaotong-Liverpool University (Dual Degree of University of Liverpool), Suzhou, China
+MSc., 2024 -2025, Dept of Computer Science, Master of Computer Science, UCL, London
 
 ## Research experience
 
