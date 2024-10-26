@@ -28,7 +28,7 @@ MSc., 2024 -2025, Dept of Computer Science, Master of Computer Science, UCL, Lon
 - Guitar
 - Traveling
 - Philosophy
-- PKM@**Tana**
+- PKM@**Tana** （https://tana.pub/xT4M9-Zx15fr/jiawei-tan）
 - Poem
 - 谈古论金
 ## Contact
