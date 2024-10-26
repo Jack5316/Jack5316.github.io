@@ -24,5 +24,12 @@ MSc., 2024 -2025, Dept of Computer Science, Master of Computer Science, UCL, Lon
 
    Position: RA
 
+## Hobbies
+- Guitar
+- Traveling
+- Philosophy
+- PKM@**Tana**
+- Poem
+- 谈古论金
 ## Contact
 * e-mail: jiaweitan531@gmail.com
