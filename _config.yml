@@ -148,6 +148,7 @@ exclude:
   - package.json
   - tmp
   - vendor
+  - CV1.0.pdf
 keep_files:
   - .git
   - .svn
