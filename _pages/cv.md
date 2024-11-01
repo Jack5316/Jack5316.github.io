@@ -11,7 +11,9 @@ redirect_from:
 
 Education
 ======
-* B.Eng, XJTLU@SUZHOU, Electronic Science and Technology, 2024
+* B.Eng, XJTLU@SUZHOU, Electronic Science and Technology, 2020~2024
+
+* M.Sc, University College London, Computer Science ,'25
 
 Work experience
 ======
@@ -22,7 +24,23 @@ Work experience
 
 Skills
 ======
+* Circuit Analysis & Simulation
+* CMOS Technology
+* HDL （Verilog）
+* Embedded Systems
+* Assembly (ARM/MIPS)
 * C
 * MATLAB
 * Python
+* Database(MySQL)
+* Computer Architecture
+* Algorithm
+
+Language
+======
+* Mandarin (Fluent)
+* English (Fluent)
+* Cantonese (Basic)
+* Spanish (Basic)
+
   
