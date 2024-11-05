@@ -1,1 +1,1 @@
-![CV](file/CV.1.0.jpg)
+![CV](portfolio/CV.1.0.jpg)
