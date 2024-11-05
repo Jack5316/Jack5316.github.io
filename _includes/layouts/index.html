@@ -6,17 +6,18 @@ title: Home
 <img src="/images/IMG_0040.jpeg" alt="Banner Image">
 
 <style>
-  .banner {
-    width: 50%;
-    height: 50vh; /* Full viewport height */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden;
+  /* Center the container and set a max width */
+  .container {
+    max-width: 900px; /* Adjust as needed */
+    margin: 0 auto;
+    padding: 0 20px; /* Optional: adds padding on the sides */
   }
+
+  /* Ensure the banner image spans the full width of the container */
   .banner img {
-    width: 50%;
+    width: 100%;
     height: auto;
-    object-fit: cover;
+    display: block;
   }
 </style>
+
