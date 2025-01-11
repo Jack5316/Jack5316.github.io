@@ -4,5 +4,5 @@ main:
     url: /cv/
   - title: "Portfolio"
     url: /portfolio/
-    
-    
+  - title: "Blog"
+    url: /blog/
