@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Biography of Jiawei Tan-Jack"
+title: "Biography of Jiawei(Jack) Tan"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
