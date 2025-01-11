@@ -7,9 +7,9 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Jiawei Tan-Jack/ Home"
+title                    : "Jiawei(Jack) Tan/ Home"
 title_separator          : "-"
-name                     : &name "Jiawei Tan-Jack"
+name                     : &name "Jiawei(Jack) Tan"
 description              : &description "An postgraduate student @ UCL."
 url                      : https://Jack5316.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
