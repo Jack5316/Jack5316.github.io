@@ -1,142 +1,199 @@
-# ========================================
-#  🌌 Cyberpunk Jekyll Configuration 2025
-# ========================================
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your entire site, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# `jekyll serve`. If you change this file, please restart the server process.
 
-# Core Site Settings
-# -----------------
-locale          : "en-US"
-title          : "~/Jiawei(Jack)_Tan"
-title_separator: "⚡"
-name           : &name "T'an Chia-wei"
-description    : &description "{{ Exploring the Digital Frontier }} | UCL Postgraduate"
-url           : "https://Jack5316.github.io"
-baseurl        : ""
-repository     : "Jack5316/Jack5316.github.io"
-teaser         : "無人之境.webp"
+# Site Settings
+locale                   : "en-US"
+title                    : "Jiawei(Jack) Tan/ Home"
+title_separator          : "-"
+name                     : &name "T'an Chia-wei"
+description              : &description "An postgraduate student @ UCL."
+url                      : https://Jack5316.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+baseurl: ""
+repository               : "Jack5316/Jack5316.github.io"
+teaser                   :  "无人之境.webp"
+breadcrumbs              : false # true, false (default)
+words_per_minute         : 160
+future                   : true
+read_more                : "disabled" # if enabled, adds "Read more" links to excerpts
+talkmap_link             : false #change to true to add link to talkmap on talks page
+comments:
+  provider               : # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "custom"
+  disqus:
+    shortname            :
+  discourse:
+    server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
+  facebook:
+    appid                :
+    num_posts            : # 5 (default)
+    colorscheme          : # "light" (default), "dark"
+staticman:
+  allowedFields          : ['name', 'email', 'url', 'message']
+  branch                 : "gh-pages" # "master", "gh-pages"
+  commitMessage          : "New comment."
+  filename               : comment-{@timestamp}
+  format                 : "yml"
+  moderation             : true
+  path                   : "_data/comments/{options.slug}"
+  requiredFields         : ['name', 'email', 'message']
+  transforms:
+    email                : "md5"
+  generatedFields:
+    date:
+      type               : "date"
+      options:
+        format           : "iso8601" # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
+atom_feed:
+  path                   : # blank (default) uses feed.xml
+favicon: /images/education-book.png
 
-# Site Features
-# ------------
-theme_mode     : "dark"  # Enable dark mode by default
-syntax_theme   : "monokai"  # Dark code highlighting theme
-breadcrumbs    : false
-words_per_minute: 160
-future         : true
-read_more      : "disabled"
-talkmap_link   : false
 
-# Visual Elements
-# --------------
-favicon        : "/images/neon-book.png"  # Updated to a neon-styled icon
-background     : "matrix-rain"  # Enable matrix-like background effect
-accent_color   : "#00ff9f"     # Cyberpunk green
+# SEO Related
+google_site_verification :
+bing_site_verification   :
+alexa_site_verification  :
+yandex_site_verification :
 
-# Site Author Matrix
-# ----------------
-author:
-  name             : "『 Jiawei Tan 』"
-  avatar           : "41FCC63C-3C4E-49C5-813F-68344C075E24.jpeg"
-  bio              : ">> Exploring the Digital Frontier @ UCL"
-  location         : "📍 London.exe"
-  employer         : "UCL"
-  email            : "jiaweitan531@gmail.com"
-  links:
-    github         : "Jack5316"
-    linkedin       : "jiawei-tan2a66ab201"
-    twitter        : "jia_tan81965n"
-    instagram      : "jack53181"
-    researchgate   : "https://www.researchgate.net/profile/Jiawei-Tan-8"
-
-# Enhanced Social Integration
-# -------------------------
+# Social Sharing
+twitter:
+  username               : "jia_tan81965n"
+facebook:
+  username               :
+  app_id                 :
+  publisher              :
+og_image                 :  # Open Graph/Twitter default site image
+# For specifying social profiles
+# - https://developers.google.com/structured-data/customize/social-profiles
 social:
-  type            : "Person"
-  links:
-    - label: "GitHub"
-      icon : "fab fa-fw fa-github"
-      url  : "https://github.com/Jack5316"
-    - label: "LinkedIn"
-      icon : "fab fa-fw fa-linkedin"
-      url  : "https://linkedin.com/in/jiawei-tan2a66ab201"
+  type                   : # Person or Organization (defaults to Person)
+  name                   : # If the user or organization name differs from the site's name
+  links: # An array of links to social media profiles
 
-# Performance Optimizations
-# -----------------------
-compress_html:
-  clippings    : all
-  comments     : ["<!-- ", " -->"]
-  endings      : all
-  ignore:
-    envs       : [development]
-  blanklines   : false
-  profile      : false
-  startings    : [html, head, body]
 
-# Advanced Collections
-# ------------------
-collections:
-  cyberpunk:
-    output    : true
-    permalink : /:collection/:path/
-  teaching:
-    output    : true
-    permalink : /:collection/:path/
-  publications:
-    output    : true
-    permalink : /:collection/:path/
-  portfolio:
-    output    : true
-    permalink : /:collection/:path/
-  talks:
-    output    : true
-    permalink : /:collection/:path/
+# Analytics
+analytics:
+  provider               :  "google-universal" # false (default), "google", "google-universal", "custom"
+  google:
+    tracking_id          :
 
-# Enhanced Markdown Processing
-# --------------------------
+
+# Site Author
+author:
+  name             : "Jiawei Tan"
+  avatar           : "41FCC63C-3C4E-49C5-813F-68344C075E24.jpeg"
+  bio              : "Postgraduate Student of UCL."
+  location         : "London, UK"
+  employer         : "UCL"
+  pubmed           : ##"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  googlescholar    : ##"http://yourfullgooglescholarurl.com"
+  email            : "jiaweitan531@gmail.com"
+  researchgate     :  "https://www.researchgate.net/profile/Jiawei-Tan-8"
+  uri              :
+  bitbucket        :
+  codepen          :
+  dribbble         :
+  flickr           :
+  facebook         :
+  foursquare       :
+  github           : "Jack5316"
+  google_plus      :
+  keybase          :
+  Instagram        : "jack53181"
+  impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
+  lastfm           :
+  linkedin         : "jiawei-tan2a66ab201/"
+  orcid            : 
+  pinterest        :
+  soundcloud       :
+  stackoverflow    : # http://stackoverflow.com/users/123456/username
+  steam            :
+  tumblr           :
+  twitter          :  "jia_tan81965n"
+  vine             :
+  weibo            :
+  xing             :
+  youtube          :
+  wikipedia        :
+
+
+# Reading Files
+include:
+  - .htaccess
+  - _pages
+  - files
+exclude:
+  - "*.sublime-project"
+  - "*.sublime-workspace"
+  - .asset-cache
+  - .bundle
+  - .jekyll-assets-cache
+  - .sass-cache
+  - CHANGELOG
+  - Capfile
+  - Gemfile
+  - Gruntfile.js
+  - LICENSE
+  - README
+  - Rakefile
+  - assets/js/_main.js
+  - assets/js/plugins
+  - assets/js/vendor
+  - config
+  - gulpfile.js
+  - log
+  - node_modules
+  - package.json
+  - tmp
+  - vendor
+keep_files:
+  - .git
+  - .svn
+encoding: "utf-8"
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+
+
+# Conversion
 markdown: kramdown
+highlighter: rouge
+lsi: false
+excerpt_separator: "\n\n"
+incremental: false
+
+
+# Markdown Processing
 kramdown:
-  input               : GFM
-  hard_wrap           : false
-  syntax_highlighter  : rouge
-  syntax_highlighter_opts:
-    css_class        : 'highlight'
-    span:
-      line_numbers   : false
-    block:
-      line_numbers   : true
-      start_line     : 1
+  input: GFM
+  hard_wrap: false
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  enable_coderay: false
 
-# Security Headers
-# --------------
-security:
-  content_security_policy: true
-  x_frame_options      : DENY
-  x_content_type_options: nosniff
-  x_xss_protection     : "1; mode=block"
 
-# Performance Settings
-# ------------------
-sass:
-  style              : compressed
-  sass_dir           : _sass
-  sourcemap          : never
+# Collections
+collections:
+  teaching:
+    output: true
+    permalink: /:collection/:path/
+  publications:
+    output: true
+    permalink: /:collection/:path/
+  portfolio:
+    output: true
+    permalink: /:collection/:path/
+  talks:
+    output: true
+    permalink: /:collection/:path/
 
-# Plugin Configuration
-# ------------------
-plugins:
-  - jekyll-paginate
-  - jekyll-sitemap
-  - jekyll-gist
-  - jekyll-feed
-  - jekyll-redirect-from
-  - jekyll-seo-tag
-  - jekyll-minifier
 
-# Time and Locale
-# -------------
-timezone: Europe/London  # Updated to London timezone
-
-# Default Layouts
-# -------------
+# Defaults
 defaults:
+  # _posts
   - scope:
       path: ""
       type: posts
@@ -147,9 +204,110 @@ defaults:
       comments: true
       share: true
       related: true
-      toc: true
-      toc_sticky: true
-      classes: wide
-      header:
-        overlay_filter: "0.5"
-        overlay_color: "#000"
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+  # _teaching
+  - scope:
+      path: ""
+      type: teaching
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comments: true
+  # _publications
+  - scope:
+      path: ""
+      type: publications
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comments: true
+  # _portfolio
+  - scope:
+      path: ""
+      type: portfolio
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comment: true
+  # _talks
+  - scope:
+      path: ""
+      type: talks
+    values:
+      layout: talk
+      author_profile: true
+      share: true
+
+# Sass/SCSS
+sass:
+  sass_dir: _sass
+  style: compressed # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
+
+
+# Outputting
+permalink: /:categories/:title/
+# paginate: 5 # amount of posts to show
+# paginate_path: /page:num/
+timezone: America/Los_Angeles # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+
+
+# Plugins
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jekyll-redirect-from
+# mimic GitHub Pages with --safe
+whitelist:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jemoji
+
+
+# Archives
+#  Type
+#  - GitHub Pages compatible archive pages built with Liquid ~> type: liquid (default)
+#  - Jekyll Archives plugin archive pages ~> type: jekyll-archives
+#  Path (examples)
+#  - Archive page should exist at path when using Liquid method or you can
+#    expect broken links (especially with breadcrumbs enabled)
+#  - <base_path>/tags/my-awesome-tag/index.html ~> path: /tags/
+#  - <base_path/categories/my-awesome-category/index.html ~> path: /categories/
+#  - <base_path/my-awesome-category/index.html ~> path: /
+category_archive:
+  type: liquid
+  path: /categories/
+tag_archive:
+  type: liquid
+  path: /tags/
+# https://github.com/jekyll/jekyll-archives
+# jekyll-archives:
+#   enabled:
+#     - categories
+#     - tags
+#   layouts:
+#     category: archive-taxonomy
+#     tag: archive-taxonomy
+#   permalinks:
+#     category: /categories/:name/
+#     tag: /tags/:name/
+
+
+# HTML Compression
+# - http://jch.penibelst.de/
+compress_html:
+  clippings: all
+  ignore:
+    envs: development
