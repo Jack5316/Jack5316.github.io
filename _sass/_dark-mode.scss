@@ -2,33 +2,14 @@
    DARK MODE
    ========================================================================== */
 
-/* Dark mode toggle button */
-.dark-mode-toggle {
-  background: none !important;
-  border: none;
-  font-size: 1.2em;
-  cursor: pointer;
-  padding: 0.5em !important;
-  margin: 0;
-  transition: transform 0.2s ease-in-out;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  position: absolute;
-  right: 0.5rem;
-  top: 50%;
-  transform: translateY(-50%);
-  height: auto !important;
-  color: inherit !important;
-  z-index: 10;
+/* Dark mode toggle */
+#dark-mode-toggle {
+  a {
+    transition: transform 0.2s ease-in-out;
 
-  &:hover {
-    transform: translateY(-50%) rotate(90deg);
-  }
-
-  &:focus {
-    outline: 2px solid $primary-color;
-    outline-offset: 2px;
+    &:hover {
+      transform: rotate(90deg);
+    }
   }
 }
 
