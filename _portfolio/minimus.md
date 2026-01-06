@@ -1,10 +1,12 @@
 ---
 title: "Minimus: Online Platform for AI in Education"
-excerpt: "Web platform showcasing AI applications in education with secure authentication and database architecture<br/><img src='/images/portfolio/minimus.png'>"
+excerpt: "Web platform showcasing AI applications in education with secure authentication and database architecture"
 collection: portfolio
 ---
 
 ## Minimus: Online Platform to Showcase AI Application in Education
+
+<img src="/images/portfolio/minimus.png" alt="Minimus Platform" style="max-width: 600px; width: 100%; height: auto; margin: 20px 0;">
 
 Minimus is a comprehensive web platform designed to demonstrate and showcase innovative AI applications in the education sector, featuring secure authentication, robust database architecture, and cloud deployment.
 
