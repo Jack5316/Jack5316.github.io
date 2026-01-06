@@ -18,14 +18,15 @@ MSc., 2024.09 -2025.12, Dept of Computer Science, Master of Computer Science, Un
 
 ## Research Experience
 
-* Summer2022, Xi'an Jiaotong-Liverpool University, School of Advance Technology 
+* Summer 2022, Xi'an Jiaotong-Liverpool University, School of Advance Technology 
 
    Advisors: Prof. Sang Lam
 
    Position: Research Assistant
 
 ## Work Experience
-* Summer2023, Kangway Technology Company
+* Summer 2023, Kangway Technology Company
+  
   Position: Hardware Engineer
 ## Contact
 * e-mail: jiaweitan531@gmail.com
