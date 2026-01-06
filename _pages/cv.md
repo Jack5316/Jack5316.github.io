@@ -29,7 +29,6 @@ Research Experience
   * Duties included: PCB circuit design and layout drawing
     
 # Skills
-======
 * Circuit Analysis & Simulation
 * CMOS Technology
 * HDL （Verilog）
