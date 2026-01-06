@@ -11,17 +11,21 @@ redirect_from:
 
 Education
 ======
-* B.Eng, XJTLU@SUZHOU, Electronic Science and Technology, 2020~2024
+* M.Sc. in Computer Science, University College London (UCL), 2025
 
-* M.Sc, University College London, Computer Science ,'25
+* B.Eng. in Electronic Science and Technology, Xi'an Jiaotong-Liverpool University (XJTLU), 2024
 
-Work experience
+Research Experience
 ======
 * Summer 2022: Research Assistant
-  * SURF, XJLTU
-  * Duties included: Circuit anlaysis, simulation and optimazation
+  * Summer Undergraduate Research Fellowship, XJLTU
+  * Topic: Investigation on the Transition Characteristics of GaN Inverter
+  * Duties included: Circuit analysis, simulation, testing and report writing
   * Supervisor: Professor Sang. Lam  
-
+## Work Experience
+======
+* Summer 2023: Hardware Engineer
+  * Duties included: PCB circuit design and layout drawing 
 Skills
 ======
 * Circuit Analysis & Simulation
