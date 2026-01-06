@@ -21,12 +21,14 @@ Research Experience
   * Summer Undergraduate Research Fellowship, XJLTU
   * Topic: Investigation on the Transition Characteristics of GaN Inverter
   * Duties included: Circuit analysis, simulation, testing and report writing
-  * Supervisor: Professor Sang. Lam  
-## Work Experience
-======
+  * Supervisor: Professor Sang. Lam
+    
+# Work Experience
 * Summer 2023: Hardware Engineer
-  * Duties included: PCB circuit design and layout drawing 
-Skills
+  * Kangway Technnology Company    
+  * Duties included: PCB circuit design and layout drawing
+    
+# Skills
 ======
 * Circuit Analysis & Simulation
 * CMOS Technology
