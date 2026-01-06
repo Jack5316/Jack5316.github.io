@@ -1,10 +1,12 @@
 ---
 title: "ReadinTime: Storyteller for Neurodiverse Children"
-excerpt: "Interactive storytelling application with voice cloning TTS technology for neurodiverse children<br/><img src='/images/portfolio/readintime.png'>"
+excerpt: "Interactive storytelling application with voice cloning TTS technology for neurodiverse children"
 collection: portfolio
 ---
 
 ## ReadinTime: Storyteller for Neurodiverse Children with Voice Cloning TTS
+
+<img src="/images/portfolio/readintime.png" alt="ReadinTime Application" style="max-width: 500px; width: 100%; height: auto; margin: 20px 0;">
 
 ReadinTime is an innovative storytelling application designed specifically for neurodiverse children, featuring advanced voice cloning text-to-speech technology to create personalized, engaging reading experiences.
 
