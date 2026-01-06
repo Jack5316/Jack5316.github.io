@@ -29,17 +29,14 @@ Research Experience
   * Duties included: PCB circuit design and layout drawing
     
 # Skills
-* Circuit Analysis & Simulation
-* CMOS Technology
-* HDL （Verilog）
-* Embedded Systems
-* Assembly (ARM/MIPS)
+* Python 
+* Typescript (React)
+* PostgreSQL
 * C
-* MATLAB
-* Python
-* Database(MySQL)
-* Computer Architecture
-* Algorithm
+* Assembly
+* Verilog HDL (FPGA)
+* CMOS Circuit Design 
+* Vibe Coding (Cursor/Claude Code)
 
 Language
 ======
