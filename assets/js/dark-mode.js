@@ -30,15 +30,16 @@
 
   // Wait for DOM to be ready
   function initDarkMode() {
-    const darkModeToggle = document.getElementById('dark-mode-toggle');
+    const darkModeToggle = document.querySelector('#dark-mode-toggle a');
 
     if (!darkModeToggle) {
-      console.warn('Dark mode toggle button not found');
+      console.warn('Dark mode toggle not found');
       return;
     }
 
-    // Toggle dark mode when button is clicked
-    darkModeToggle.addEventListener('click', function() {
+    // Toggle dark mode when clicked
+    darkModeToggle.addEventListener('click', function(e) {
+      e.preventDefault();
       const isDarkMode = document.body.classList.contains('dark-mode');
 
       if (isDarkMode) {
