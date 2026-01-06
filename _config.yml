@@ -84,13 +84,13 @@ analytics:
 author:
   name             : "Jiawei Tan"
   avatar           : "41FCC63C-3C4E-49C5-813F-68344C075E24.jpeg"
-  bio              : "Postgraduate Student of UCL."
-  location         : "London, UK"
+  bio              : "Graduate from UCL CS"
+  location         : "Guangzhou, China"
   employer         : "UCL"
   pubmed           : ##"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  googlescholar    : ##"http://yourfullgooglescholarurl.com"
+  googlescholar    : 
   email            : "jiaweitan531@gmail.com"
-  researchgate     :  "https://www.researchgate.net/profile/Jiawei-Tan-8"
+  researchgate     :  
   uri              :
   bitbucket        :
   codepen          :
@@ -101,7 +101,7 @@ author:
   github           : "Jack5316"
   google_plus      :
   keybase          :
-  Instagram        : "jack53181"
+  Instagram        : 
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
   linkedin         : "jiawei-tan2a66ab201/"
@@ -111,7 +111,7 @@ author:
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          :  "jia_tan81965n"
+  twitter          :  
   vine             :
   weibo            :
   xing             :
