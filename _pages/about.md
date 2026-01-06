@@ -8,28 +8,24 @@ redirect_from:
   - /about.html
 ---
 
-Jiawei Tan is currently a  postgraduate student at University College London.
+Jiawei Tan is an MSc Computer Science graduate student from University College London.
 
 ## Education 
 
-BEng., 2020 - 2024, School of Advanced Technology, Major of Electronic Science and Technology, Xi'an Jiaotong-Liverpool University (Dual Degree of University of Liverpool), Suzhou, China
+BEng., 2020.09 - 2024.08, School of Advanced Technology, Major of Electronic Science and Technology, Xi'an Jiaotong-Liverpool University (Dual Degree of University of Liverpool), Soochow, China
 
-MSc., 2024 -2025, Dept of Computer Science, Master of Computer Science, UCL, London
+MSc., 2024.09 -2025.12, Dept of Computer Science, Master of Computer Science, University College London, London, UK
 
-## Research experience
+## Research Experience
 
-1. Xi'an Jiaotong-Liverpool University, School of Advance Technology, Summer Undergraduate Research Fellowship
+* Summer2022, Xi'an Jiaotong-Liverpool University, School of Advance Technology 
 
-   Advisors: Sang. Lam
+   Advisors: Prof. Sang Lam
 
-   Position: RA
+   Position: Research Assistant
 
-## Hobbies
-- Guitar
-- Traveling
-- Philosophy
-- PKM@**Tana** （https://tana.pub/xT4M9-Zx15fr/jiawei-tan）
-- Poem
-- 谈古论金
+## Work Experience
+* Summer2023, Kangway Technology Company
+  Position: Hardware Engineer
 ## Contact
 * e-mail: jiaweitan531@gmail.com
