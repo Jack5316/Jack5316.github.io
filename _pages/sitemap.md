@@ -21,4 +21,4 @@ A list of all pages on this site. For search engines, an [XML version](/sitemap.
 
 ## External
 
-- [Blog](https://jack5316.github.io/Thinking-Machine/) - Thinking Machine (AI, Technology, Philosophy)
+- [Blog](https://jacktan.bearblog.dev/) 
