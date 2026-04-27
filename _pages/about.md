@@ -36,6 +36,8 @@ Jiawei Tan is an MSc Computer Science graduate student from University College L
 ## Work Experience
 * March 2026 – Present, EPG (易普集)
 
+  Position: Process Engineer@Process Equipment Department
+
 * Summer 2023, Kangway Technology Company
 
   Position: Hardware Engineer
