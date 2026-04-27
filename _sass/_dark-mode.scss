@@ -1,6 +1,24 @@
 /* ==========================================================================
-   DARK MODE
+   DARK MODE - Solarized Dark
    ========================================================================== */
+
+/*
+  Solarized palette (Ethan Schoonover):
+    base03  #002b36   background
+    base02  #073642   background highlights
+    base01  #586e75   comments / secondary content
+    base00  #657b83
+    base0   #839496   body text
+    base1   #93a1a1   emphasized content
+    yellow  #b58900
+    orange  #cb4b16
+    red     #dc322f
+    magenta #d33682
+    violet  #6c71c4
+    blue    #268bd2
+    cyan    #2aa198
+    green   #859900
+*/
 
 /* Dark mode toggle */
 #dark-mode-toggle {
@@ -15,35 +33,61 @@
 
 /* Dark mode color variables */
 body.dark-mode {
-  --body-color: #1a1a1a;
-  --background-color: #1a1a1a;
-  --text-color: #e0e0e0;
-  --border-color: #404040;
-  --code-background-color: #2d2d2d;
-  --link-color: #6db3f2;
-  --link-color-hover: #8fc5f4;
-  --primary-color: #9e9e9e;
-  --masthead-link-color: #9e9e9e;
-  --masthead-link-color-hover: #b0b0b0;
-  --lighter-gray: #404040;
-  --light-gray: #505050;
-  --gray: #9e9e9e;
-  --dark-gray: #e0e0e0;
+  --sol-base03:  #002b36;
+  --sol-base02:  #073642;
+  --sol-base01:  #586e75;
+  --sol-base00:  #657b83;
+  --sol-base0:   #839496;
+  --sol-base1:   #93a1a1;
+  --sol-blue:    #268bd2;
+  --sol-cyan:    #2aa198;
+  --sol-yellow:  #b58900;
+  --sol-orange:  #cb4b16;
+  --sol-magenta: #d33682;
+  --sol-violet:  #6c71c4;
+  --sol-green:   #859900;
+  --sol-red:     #dc322f;
+
+  --body-color: var(--sol-base03);
+  --background-color: var(--sol-base03);
+  --text-color: var(--sol-base0);
+  --border-color: var(--sol-base02);
+  --code-background-color: var(--sol-base02);
+  --link-color: var(--sol-blue);
+  --link-color-hover: var(--sol-cyan);
+  --primary-color: var(--sol-base1);
+  --masthead-link-color: var(--sol-base1);
+  --masthead-link-color-hover: var(--sol-cyan);
+  --lighter-gray: var(--sol-base02);
+  --light-gray: var(--sol-base01);
+  --gray: var(--sol-base0);
+  --dark-gray: var(--sol-base1);
 
   background-color: var(--background-color);
   color: var(--text-color);
 
-  /* Update all major elements */
+  /* Headings - slightly brighter than body text */
+  h1, h2, h3, h4, h5, h6 {
+    color: var(--sol-base1);
+    border-bottom-color: var(--border-color);
+  }
+
+  /* Strong / bold text */
+  strong, b {
+    color: var(--sol-base1);
+  }
+
+  /* Masthead / nav */
   .masthead {
-    background-color: #2d2d2d;
+    background-color: var(--sol-base02);
     border-bottom-color: var(--border-color);
   }
 
   .greedy-nav {
-    background: #2d2d2d;
+    background: var(--sol-base02);
 
     a {
-      color: var(--text-color);
+      color: var(--sol-base1);
 
       &:hover {
         color: var(--link-color-hover);
@@ -66,7 +110,7 @@ body.dark-mode {
   }
 
   .hidden-links {
-    background: #2d2d2d;
+    background: var(--sol-base02);
     border-color: var(--border-color);
 
     a {
@@ -74,14 +118,15 @@ body.dark-mode {
 
       &:hover {
         color: var(--link-color-hover);
-        background: #404040;
+        background: var(--sol-base03);
       }
     }
   }
 
   /* Sidebar */
   .sidebar {
-    background-color: #2d2d2d;
+    background-color: var(--sol-base02);
+    color: var(--text-color);
 
     a {
       color: var(--text-color);
@@ -90,6 +135,14 @@ body.dark-mode {
         color: var(--link-color-hover);
       }
     }
+  }
+
+  .author__name {
+    color: var(--sol-base1);
+  }
+
+  .author__bio {
+    color: var(--text-color);
   }
 
   .author__avatar img {
@@ -106,12 +159,21 @@ body.dark-mode {
         color: var(--link-color-hover);
       }
     }
+
+    li {
+      color: var(--text-color);
+    }
   }
 
   /* Main content */
   .page__content {
     background-color: var(--background-color);
     color: var(--text-color);
+  }
+
+  .page__title,
+  .page__meta {
+    color: var(--sol-base1);
   }
 
   /* Links */
@@ -121,17 +183,37 @@ body.dark-mode {
     &:hover {
       color: var(--link-color-hover);
     }
+
+    &:visited {
+      color: var(--sol-violet);
+    }
   }
 
   /* Code blocks */
   code {
     background-color: var(--code-background-color);
     border-color: var(--border-color);
-    color: #f8f8f2;
+    color: var(--sol-base1);
   }
 
   pre {
     background-color: var(--code-background-color);
+    color: var(--sol-base1);
+  }
+
+  /* Solarized syntax highlighting */
+  .highlight,
+  pre.highlight {
+    background-color: var(--sol-base02);
+    color: var(--sol-base0);
+
+    .c, .c1, .cm, .cs { color: var(--sol-base01); font-style: italic; } /* comments */
+    .k, .kd, .kn, .kp, .kr, .kt { color: var(--sol-green); }            /* keywords */
+    .s, .s1, .s2, .sb, .sc, .sd, .se, .sh, .si, .sx, .sr { color: var(--sol-cyan); } /* strings */
+    .n, .na, .nb, .nc, .nd, .ne, .nf, .ni, .nl, .nn, .no, .nv, .nx { color: var(--sol-blue); } /* names */
+    .o, .ow { color: var(--sol-green); }                                /* operators */
+    .m, .mi, .mf, .mh, .mo { color: var(--sol-magenta); }               /* numbers */
+    .err { color: var(--sol-red); }
   }
 
   /* Borders and lines */
@@ -142,6 +224,7 @@ body.dark-mode {
   /* Tables */
   table {
     border-color: var(--border-color);
+    color: var(--text-color);
   }
 
   th,
@@ -150,12 +233,17 @@ body.dark-mode {
   }
 
   thead {
-    background-color: #2d2d2d;
+    background-color: var(--sol-base02);
+    color: var(--sol-base1);
+  }
+
+  tr:nth-child(even) {
+    background-color: var(--sol-base02);
   }
 
   /* Footer */
   .page__footer {
-    background-color: #2d2d2d;
+    background-color: var(--sol-base02);
     color: var(--text-color);
     border-top-color: var(--border-color);
 
@@ -180,7 +268,7 @@ body.dark-mode {
   }
 
   .archive__item-title {
-    color: var(--text-color);
+    color: var(--sol-base1);
   }
 
   .archive__item-excerpt {
@@ -204,45 +292,58 @@ body.dark-mode {
   input,
   textarea,
   select {
-    background-color: #2d2d2d;
+    background-color: var(--sol-base02);
     color: var(--text-color);
     border-color: var(--border-color);
 
     &:focus {
       border-color: var(--link-color);
+      outline-color: var(--link-color);
     }
   }
 
   /* Buttons */
   .btn {
-    background-color: #404040;
-    color: var(--text-color);
+    background-color: var(--sol-base02);
+    color: var(--sol-base1);
     border-color: var(--border-color);
 
     &:hover {
-      background-color: #505050;
-      color: var(--link-color-hover);
+      background-color: var(--sol-base01);
+      color: var(--sol-cyan);
     }
   }
 
   /* Notices */
   .notice {
-    background-color: #2d2d2d;
+    background-color: var(--sol-base02);
     border-color: var(--border-color);
+    color: var(--text-color);
   }
+
+  .notice--primary { border-left-color: var(--sol-blue); }
+  .notice--info    { border-left-color: var(--sol-cyan); }
+  .notice--warning { border-left-color: var(--sol-yellow); }
+  .notice--success { border-left-color: var(--sol-green); }
+  .notice--danger  { border-left-color: var(--sol-red); }
 
   /* Blockquotes */
   blockquote {
-    border-left-color: var(--primary-color);
-    color: var(--text-color);
+    border-left-color: var(--sol-base01);
+    color: var(--sol-base1);
   }
 
   /* CV and work experience sections */
   .cv-section,
   .work-experience {
     h2, h3, h4 {
-      color: var(--text-color);
+      color: var(--sol-base1);
     }
+  }
+
+  /* Toggle icon stays visible */
+  #dark-mode-toggle a {
+    color: var(--sol-base1);
   }
 }
 
