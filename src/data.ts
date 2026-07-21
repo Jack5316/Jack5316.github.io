@@ -25,6 +25,7 @@ export const projects: Project[] = [
     description:
       "Full-stack platform showcasing AI applications in education. Passwordless magic-link auth, Castle threat detection, reCAPTCHA, and a carefully designed PostgreSQL schema — deployed on Azure.",
     tech: ["Next.js", "React", "PostgreSQL", "Azure"],
+    link: "https://github.com/Jack5316/Minimus",
     image: "/images/portfolio/minimus.png",
     featured: true,
   },
