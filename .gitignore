@@ -1,5 +1,5 @@
-_site/
-Gemfile.lock
-.bundle/
-vendor/
-
+node_modules/
+dist/
+shots/
+.DS_Store
+*.local

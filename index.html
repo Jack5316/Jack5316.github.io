@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jiawei (Jack) Tan — Engineer & Builder</title>
+    <meta
+      name="description"
+      content="Jiawei (Jack) Tan — MSc Computer Science graduate from UCL. Building at the intersection of hardware and software: AI tools, CLIs, and full-stack platforms."
+    />
+    <meta property="og:title" content="Jiawei (Jack) Tan — Engineer & Builder" />
+    <meta
+      property="og:description"
+      content="CS graduate from UCL, passionate about AI, technology, and bridging hardware with software."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://jack5316.github.io/" />
+    <meta property="og:image" content="https://jack5316.github.io/images/avatar.jpg" />
+    <link rel="icon" type="image/jpeg" href="/images/avatar.jpg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&family=Inter:wght@300..800&family=JetBrains+Mono:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="bg-[#05060a] text-slate-200 antialiased selection:bg-cyan-400/30 selection:text-cyan-100">
+    <!-- Scroll progress -->
+    <div id="scroll-progress" class="fixed left-0 top-0 z-[60] h-[2px] w-full origin-left scale-x-0 bg-gradient-to-r from-cyan-400 via-violet-400 to-fuchsia-400"></div>
+
+    <!-- Custom cursor (desktop) -->
+    <div id="cursor-dot" class="pointer-events-none fixed z-[70] hidden h-2 w-2 rounded-full bg-cyan-300 md:block"></div>
+    <div id="cursor-ring" class="pointer-events-none fixed z-[70] hidden h-8 w-8 rounded-full border border-cyan-300/40 md:block"></div>
+
+    <!-- Three.js background -->
+    <canvas id="bg-canvas" class="fixed inset-0 -z-10 h-full w-full"></canvas>
+    <!-- Noise overlay -->
+    <div class="noise pointer-events-none fixed inset-0 -z-[5] opacity-[0.05]"></div>
+
+    <!-- Nav -->
+    <header id="site-nav" class="fixed inset-x-0 top-0 z-50 transition-all duration-500">
+      <nav class="mx-auto flex max-w-6xl items-center justify-between px-6 py-4">
+        <a href="#top" class="group flex items-center gap-2 font-display text-lg font-semibold tracking-tight text-white">
+          <span class="grid h-8 w-8 place-items-center rounded-lg bg-gradient-to-br from-cyan-400 to-violet-500 font-mono text-sm font-bold text-[#05060a] transition-transform duration-300 group-hover:rotate-12">JT</span>
+          <span class="hidden sm:inline">jack.tan</span>
+        </a>
+        <div class="flex items-center gap-1 rounded-full border border-white/10 bg-white/[0.04] px-2 py-1.5 backdrop-blur-xl">
+          <a href="#about" class="nav-link">About</a>
+          <a href="#projects" class="nav-link">Projects</a>
+          <a href="#experience" class="nav-link">Experience</a>
+          <a href="#contact" class="nav-link">Contact</a>
+          <a href="https://jacktan.bearblog.dev/" target="_blank" rel="noopener" class="nav-link">Blog</a>
+        </div>
+      </nav>
+    </header>
+
+    <main id="top">
+      <!-- ============ HERO ============ -->
+      <section class="relative flex min-h-screen items-center overflow-hidden">
+        <div class="pointer-events-none absolute inset-0 bg-[radial-gradient(ellipse_at_center,transparent_0%,#05060a_75%)]"></div>
+        <div class="mx-auto w-full max-w-6xl px-6 pt-24">
+          <p class="hero-fade mb-6 font-mono text-sm tracking-widest text-cyan-300/90">
+            <span class="mr-2 inline-block h-px w-8 bg-cyan-300/60 align-middle"></span>HELLO, WORLD — I'M
+          </p>
+          <h1 class="hero-title font-display text-[clamp(3rem,10vw,7.5rem)] font-bold leading-[0.95] tracking-tight text-white">
+            <span class="block overflow-hidden"><span class="line block">Jiawei</span></span>
+            <span class="block overflow-hidden"><span class="line block bg-gradient-to-r from-cyan-300 via-violet-300 to-fuchsia-300 bg-clip-text text-transparent">Jack Tan</span></span>
+          </h1>
+          <p class="hero-fade mt-8 max-w-xl text-lg leading-relaxed text-slate-400">
+            MSc Computer Science graduate from <span class="text-slate-200">UCL</span>. I build things where
+            <span class="text-cyan-300">hardware meets software</span> — from FPGA circuits to AI-powered tools and full-stack platforms.
+          </p>
+          <div class="hero-fade mt-10 flex flex-wrap items-center gap-4">
+            <a href="#projects" class="btn-primary group">
+              View my work
+              <svg class="h-4 w-4 transition-transform duration-300 group-hover:translate-x-1" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
+            </a>
+            <a href="/files/CV1.0.pdf" target="_blank" rel="noopener" class="btn-ghost">
+              Download CV
+            </a>
+          </div>
+          <div class="hero-fade mt-16 flex items-center gap-6 font-mono text-xs text-slate-500">
+            <span class="flex items-center gap-2"><span class="h-1.5 w-1.5 animate-pulse rounded-full bg-emerald-400"></span>Shanghai, China</span>
+            <span>Process Engineer @ EPG</span>
+          </div>
+        </div>
+        <div class="hero-fade absolute bottom-8 left-1/2 -translate-x-1/2">
+          <div class="flex h-10 w-6 items-start justify-center rounded-full border border-white/20 p-1.5">
+            <div class="scroll-dot h-2 w-1 rounded-full bg-cyan-300"></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============ ABOUT ============ -->
+      <section id="about" class="relative mx-auto max-w-6xl px-6 py-32">
+        <div class="reveal grid gap-12 md:grid-cols-[auto_1fr] md:gap-20">
+          <div class="relative mx-auto md:mx-0">
+            <div class="absolute -inset-3 rounded-2xl bg-gradient-to-br from-cyan-400/40 to-violet-500/40 blur-xl"></div>
+            <img src="/images/avatar.jpg" alt="Jiawei Tan" class="relative h-56 w-56 rounded-2xl border border-white/10 object-cover" />
+          </div>
+          <div>
+            <h2 class="section-heading"><span class="section-index">01</span>About</h2>
+            <p class="mt-6 text-lg leading-relaxed text-slate-400">
+              I'm a computer science graduate from <span class="text-slate-200">University College London</span>, with an
+              electronics engineering background from <span class="text-slate-200">XJTLU / University of Liverpool</span>.
+              I care about the full stack of computing — from CMOS circuits and Verilog up to LLM agents and web platforms.
+            </p>
+            <p class="mt-4 text-lg leading-relaxed text-slate-400">
+              These days I work as a process engineer while building AI-native tools on the side:
+              CLI clients, knowledge systems, and agents that compound knowledge over time.
+            </p>
+            <div class="mt-8 grid grid-cols-2 gap-4 sm:grid-cols-4">
+              <div class="stat-card"><span class="stat-num" data-count="2">0</span><span class="stat-label">Degrees</span></div>
+              <div class="stat-card"><span class="stat-num" data-count="8">0</span><span class="stat-label">Projects</span></div>
+              <div class="stat-card"><span class="stat-num" data-count="4">0</span><span class="stat-label">Languages</span></div>
+              <div class="stat-card"><span class="stat-num" data-count="10">0</span><span class="stat-label">Tech Skills</span></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============ PROJECTS ============ -->
+      <section id="projects" class="mx-auto max-w-6xl px-6 py-32">
+        <h2 class="section-heading reveal"><span class="section-index">02</span>Projects</h2>
+        <p class="reveal mt-4 max-w-2xl text-slate-400">Things I've designed and built — CLIs, AI tools, plugins, and platforms.</p>
+        <div id="projects-grid" class="mt-12 grid gap-6 md:grid-cols-2"></div>
+      </section>
+
+      <!-- ============ EXPERIENCE ============ -->
+      <section id="experience" class="mx-auto max-w-6xl px-6 py-32">
+        <h2 class="section-heading reveal"><span class="section-index">03</span>Experience</h2>
+        <div id="timeline" class="relative mt-14 ml-3 border-l border-white/10 pl-10 md:ml-6"></div>
+      </section>
+
+      <!-- ============ SKILLS MARQUEE ============ -->
+      <section class="overflow-hidden py-16">
+        <div class="marquee-row border-y border-white/5 bg-white/[0.02] py-5">
+          <div class="marquee-track" data-direction="left"></div>
+        </div>
+        <div class="marquee-row border-b border-white/5 bg-white/[0.02] py-5">
+          <div class="marquee-track" data-direction="right"></div>
+        </div>
+      </section>
+
+      <!-- ============ CONTACT ============ -->
+      <section id="contact" class="mx-auto max-w-6xl px-6 py-32 text-center">
+        <h2 class="section-heading reveal justify-center"><span class="section-index">04</span>Contact</h2>
+        <p class="reveal mx-auto mt-6 max-w-xl text-lg text-slate-400">
+          Want to collaborate, talk AI, or just say hi? My inbox is always open.
+        </p>
+        <a href="mailto:jiaweitan531@gmail.com" class="reveal group mt-10 inline-block font-display text-[clamp(1.5rem,4vw,3rem)] font-semibold tracking-tight text-white">
+          <span class="bg-gradient-to-r from-cyan-300 to-violet-300 bg-clip-text transition-all group-hover:text-transparent">jiaweitan531@gmail.com</span>
+          <span class="mt-1 block h-px w-full origin-left scale-x-0 bg-gradient-to-r from-cyan-300 to-violet-300 transition-transform duration-500 group-hover:scale-x-100"></span>
+        </a>
+        <div class="reveal mt-12 flex items-center justify-center gap-4">
+          <a href="https://github.com/Jack5316" target="_blank" rel="noopener" class="social-btn" aria-label="GitHub">
+            <svg class="h-5 w-5" viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5C5.65.5.5 5.65.5 12c0 5.08 3.29 9.39 7.86 10.91.58.11.79-.25.79-.56 0-.27-.01-1.17-.02-2.12-3.2.7-3.87-1.36-3.87-1.36-.52-1.33-1.28-1.68-1.28-1.68-1.04-.71.08-.7.08-.7 1.15.08 1.76 1.19 1.76 1.19 1.03 1.76 2.69 1.25 3.35.96.1-.75.4-1.25.72-1.54-2.55-.29-5.23-1.28-5.23-5.68 0-1.26.45-2.28 1.19-3.09-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.17 1.18a11 11 0 0 1 5.78 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.59.23 2.76.11 3.05.74.81 1.19 1.83 1.19 3.09 0 4.41-2.69 5.38-5.25 5.67.41.35.77 1.05.77 2.12 0 1.53-.01 2.76-.01 3.14 0 .3.2.67.8.55A11.5 11.5 0 0 0 23.5 12C23.5 5.65 18.35.5 12 .5z"/></svg>
+          </a>
+          <a href="https://www.linkedin.com/in/jiawei-tan2a66ab201/" target="_blank" rel="noopener" class="social-btn" aria-label="LinkedIn">
+            <svg class="h-5 w-5" viewBox="0 0 24 24" fill="currentColor"><path d="M20.45 20.45h-3.55v-5.57c0-1.33-.03-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.36V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28zM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12zM7.12 20.45H3.56V9h3.56v11.45z"/></svg>
+          </a>
+          <a href="https://jacktan.bearblog.dev/" target="_blank" rel="noopener" class="social-btn" aria-label="Blog">
+            <svg class="h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M12 6.25v11.5m0-11.5C10.83 5.5 8.68 5 6.5 5c-1.15 0-2.3.11-3.5.34v11.4c1.2-.22 2.35-.33 3.5-.33 2.18 0 4.33.5 5.5 1.34m0-11.5c1.17-.75 3.32-1.25 5.5-1.25 1.15 0 2.3.11 3.5.34v11.4c-1.2-.22-2.35-.33-3.5-.33-2.18 0-4.33.5-5.5 1.34"/></svg>
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="border-t border-white/5 py-8 text-center font-mono text-xs text-slate-600">
+      <p>Designed & built by Jiawei Tan · Vite + Tailwind CSS + Three.js + GSAP</p>
+    </footer>
+
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
